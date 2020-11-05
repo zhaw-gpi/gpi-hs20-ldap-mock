@@ -1,4 +1,4 @@
-package ch.zhaw.gpi.user;
+package ch.zhaw.gpi.ldap;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,8 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author scep
  */
 @SpringBootApplication
-public class RestServiceTemplateApplication {
+public class LdapMockApplication {
     public static void main(String[] args){
-        SpringApplication.run(RestServiceTemplateApplication.class, args);
+        SpringApplication.run(LdapMockApplication.class, args);
     }
 }
